@@ -1,0 +1,54 @@
+rubik-dirt-regular {
+    font-family: ;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: ;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: black;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: darkorange;
+    padding: 1em;
+    text-align: center;
+}
+
+#logo {
+    width: 60px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+galeria img {
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+galeria img:hover {
+    transform: scale(1.1);
+}
+
